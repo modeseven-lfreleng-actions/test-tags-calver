@@ -21,11 +21,11 @@ signature types:
 
 The following tags should exist in this repository for testing:
 
-| Tag Name              | Type     | Purpose                                    |
-|-----------------------|----------|--------------------------------------------|
-| `2025.01.0-unsigned`  | Unsigned | Test detection of unsigned tags            |
-| `2025.01.0-ssh`       | SSH      | Test detection of SSH-signed tags          |
-| `2025.01.0-gpg`       | GPG      | Test detection of GPG-signed tags          |
+| Tag Name             | Type     | Purpose                           |
+| -------------------- | -------- | --------------------------------- |
+| `2025.01.0-unsigned` | Unsigned | Test detection of unsigned tags   |
+| `2025.01.0-ssh`      | SSH      | Test detection of SSH-signed tags |
+| `2025.01.0-gpg`      | GPG      | Test detection of GPG-signed tags |
 
 All tags follow Calendar Versioning (CalVer) format to ensure they pass the
 calendar versioning validation.
